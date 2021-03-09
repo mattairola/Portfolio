@@ -43,27 +43,25 @@ header p {
   padding: 0 30px;
 }
 
-/* button styling */
-.btn {
+/* link for thinkful */
+a:visited {
+  color: blue;
+}
+
+/* link for (linkedin & gitbuh) icon*/
+.fab {
+  color: #276678;
   margin-bottom: 7px;
   font-size: 45px;
   border: 1px solid black;
   border-radius: 8px;
   margin: 8px;
+  padding: 5px;
   background-color: #d3e0ea;
 }
 
-.btn:hover {
+.fab:hover {
   background: #78c4d4;
-}
-
-a:visited {
-  color: blue;
-}
-
-/* icon (linkedin & gitbuh) button*/
-.fab {
-  color: #276678;
 }
 
 /* right container */
