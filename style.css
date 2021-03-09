@@ -1,48 +1,88 @@
-h1{
-  color: #276678;
+h1 {
+  font-size: 40px;
+  color: #376678;
   font-family: sans-serif;
+  margin-bottom: 1px;
+  margin-top: 10px;
+}
+
+/* left container */
+.containerL {
+  background-color: #78c4d4;
+  width: 340px;
+  height: 660px;
+  border-radius: 8px;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.containerL:hover {
+  background-color: #d3e0ea;
+}
+
+header hr {
+  margin-left: 10%;
+}
+
+h3 {
+  color: black;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
+
+img {
+  width: 280px;
+  height: 325px;
+}
+
+header p {
+  text-align: left;
+  font-family: "Lucida", sans-serif;
+  font-size: 18px;
+  padding: 0 30px;
+}
+
+/* button styling */
+.btn {
+  margin-bottom: 7px;
+  font-size: 45px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 8px;
+  background-color: #d3e0ea;
+}
+
+.btn:hover {
+  background: #78c4d4;
+}
+
+a:visited {
+  color: blue;
+}
+
+/* icon (linkedin & gitbuh) button*/
+.fab {
+  color: #276678;
+}
+
+/* right container */
+.containerR {
+  background-color: #78c4d4;
+  width: 880px;
+  padding-left: 40px;
+  float: right;
+  border-radius: 8px;
+}
+
+.containerR:hover {
+  background-color: #d3e0ea;
 }
 
 h2 {
   color: #276678;
   font-family: sans-serif;
-}
-
-header {
-  background-color: #78c4d4;
-  width: 25%;
-  border-radius: 8px;
-  float: left;
-  text-align: center;
-}
-
-header div {
-  text-align: left;
-  color: #d3e0ea;
-  padding-bottom: 10px;
-  padding-left: 30px;
-  font-family: sans-serif;
-}
-
-header p {
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 8px;
-  text-align: left;
-  font-family: "Lucida", sans-serif;
-  font-size: 20px;
-}
-
-.container {
-  background-color: #d3e0ea;
-  width: 70%;
-  padding-left: 40px;
-  float: right;
-  border-radius: 8px;
-}
-header div button {
-  font-size: 30px;
-  margin-left: 55px;
+  font-size: 28px;
 }
 
 main p {
@@ -53,31 +93,32 @@ main p {
   font-size: 20px;
 }
 
-body {
-  background-color: #1687a7;
-  padding: 25px;
-}
-
-ul {
-  font-family: "Lucida", sans-serif;
-  font-size: 18px;
-}
-
-img {
-  width: 280px;
-  padding-bottom: 8px;
-}
-
 hr {
   border: 1px solid #1687a7;
   margin-right: 40px;
 }
 
-header hr {
-  margin-left: 10%;
+/* education list */
+ul {
+  list-style: none;
+  font-family: "Lucida", sans-serif;
+  font-size: 18px;
 }
 
-footer p {
+/* background of portfolio */
+body {
+  background-color: #1687a7;
+  padding: 25px;
+}
+
+footer {
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+  height: 40px;
+  margin-left: -33px;
+  background-color: #78c4d4;
   text-align: center;
+  color: #d3e0ea;
   font-family: "Lucida", sans-serif;
 }
