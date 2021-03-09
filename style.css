@@ -1,0 +1,83 @@
+h1{
+  color: #276678;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #276678;
+  font-family: sans-serif;
+}
+
+header {
+  background-color: #78c4d4;
+  width: 25%;
+  border-radius: 8px;
+  float: left;
+  text-align: center;
+}
+
+header div {
+  text-align: left;
+  color: #d3e0ea;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  font-family: sans-serif;
+}
+
+header p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 8px;
+  text-align: left;
+  font-family: "Lucida", sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  background-color: #d3e0ea;
+  width: 70%;
+  padding-left: 40px;
+  float: right;
+  border-radius: 8px;
+}
+header div button {
+  font-size: 30px;
+  margin-left: 55px;
+}
+
+main p {
+  text-align: left;
+  padding-right: 40px;
+  padding-left: 20px;
+  font-family: "Lucida", sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: #1687a7;
+  padding: 25px;
+}
+
+ul {
+  font-family: "Lucida", sans-serif;
+  font-size: 18px;
+}
+
+img {
+  width: 280px;
+  padding-bottom: 8px;
+}
+
+hr {
+  border: 1px solid #1687a7;
+  margin-right: 40px;
+}
+
+header hr {
+  margin-left: 10%;
+}
+
+footer p {
+  text-align: center;
+  font-family: "Lucida", sans-serif;
+}
