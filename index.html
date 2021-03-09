@@ -1,74 +1,84 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Matt Airola'a Portfolio</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <!-- font awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-  </head>
 
-  <body>
-    <div>
-      <header>
-        <h1>
-          Matt Airola
-        </h1>
-        <hr />
-        <div>
-          Software Engineering Student
-        </div>
-        <img src="images/Port-pic.jpeg" alt="Portfolio-pic">
-        <p>
-          Hello, my name is Matt Airola and I'm enrolled in the software engineering program at <a href="https://www.thinkful.com/">Thinkful</a>. Please feel free to reach out using the links below!
-        </p>
-        <div class="contact">
-          <button type="button"><a href="https://www.linkedin.com/in/matthewairola"><i class="fab fa-linkedin"></i></a></button>
-          <button type="button"><a href="https://github.com/mattairola"><i class="fab fa-github"></i></a></button>
-          </div>
-      </header>
-    </div>
-    <div class="container">
-      <main>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Matt Airola'a Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+</head>
+<!-- the portfolio is split with two containers, one on the left and one on the right-->
+
+<body>
+  <!-- container on the left side of the portfolio -->
+  <section class="containerL">
+    <header>
+      <h1>
+        Matt Airola
+      </h1>
+      <hr />
+      <h3>
+        Software Engineering Student
+      </h3>
+      <img src="images/Port-pic.jpeg" alt="Portfolio-pic">
+      <p>
+        Hello, my name is Matt Airola and I'm enrolled in the software engineering program at <a href="https://www.thinkful.com/" target="_blank">Thinkful</a>. Please feel free to reach out using the links below!
+      </p>
+      <!-- linkedIN & github links -->
+      <button class="btn"><a href="https://www.linkedin.com/in/matthewairola" target="_blank"><i class="fab fa-linkedin"></i></a></button>
+      <button class="btn"><a href="https://github.com/mattairola" target="_blank"><i class="fab fa-github"></i></a></button>
+    </header>
+  </section>
+
+  <!-- container on the right side of the portfolio -->
+  <section class="containerR">
+    <main>
+      <article class="about-me">
         <h2>About Me:</h2>
         <p>
-        I grew up in a small town called Angels Camp, which is tucked away in the foothills of California. My family has lived there for multiple generations and all have taken part in the family business of raising cattle.  When I wasn't working on the ranch my time revolved around athletics and schoolwork. My main sports were basketball, cross country, and track and field. My persistence and work ethic paved the way to become a student-athlete in track and field and cross country at the University of Alabama.
+          I grew up in a small town called Angels Camp, which is tucked away in the foothills of California. My family has lived there for multiple generations and all have taken part in the family business of raising cattle. When I wasn't working on
+          the ranch my time revolved around athletics and schoolwork. My main sports were basketball, cross country, and track and field. My persistence and work ethic paved the way to become a student-athlete in track and field and cross country at
+          the University of Alabama.
         </p>
         <p>
-        Following graduation, I began coaching and giving back to the sport that was able to give so much to me. Now I'm taking my persistence into the web development field. With my sights set on creating a meaningful career where the possibilities are endless.
+          Now I'm taking my persistence and work ethic into the web development field with my sights set on creating a meaningful career full of possibilities. Beyond the qualities listed above, I'm also a great teammate capable of adapting to
+          dynamic roles and I possess a high passion for continuous learning and development.
         </p>
-        <hr />
-      <div class="education">
+      </article>
+      <hr />
+      <article class="education">
         <h2>Education:</h2>
-          <ol>
-            <ul>
-              <strong>Fresno Pacific University | Fresno, CA</strong>
-            </ul>
-            <ul>
-              Master of Arts in <em>Kinesiology</em> with emphasis in <em>Physical Education</em>
-            </ul>
-          </ol>
-          <ol>
-            <ul>
-              <strong>The University of Alabama | Tuscaloosa, AL</strong>
-            </ul>
-            <ul>
-              Master of Science in <em>Sport Management</em>
-            </ul>
-            <ul>
-              Bachelor of Science in <em>General Studies</em>
-            </ul>
-          </ol>
-      </main>
-      </div>
-    </div>
+        <ul>
+          <li>
+            <strong>Fresno Pacific University | Fresno, CA</strong>
+          </li>
+          <li>
+            Master of Arts in <em>Kinesiology</em> with emphasis in <em>Physical Education</em>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <strong>The University of Alabama | Tuscaloosa, AL</strong>
+          </li>
+          <li>
+            Master of Science in <em>Sport Management</em>
+          </li>
+          <li>
+            Bachelor of Science in <em>General Studies</em>
+          </li>
+        </ul>
+      </article>
+    </main>
+  </section>
 
-    <footer>
-      <p>
-        Matt Airola
-      </p>
-    </footer>
-     <script src="script.js"></script>
-  </body>
+  <footer>
+    <p>
+      Matt Airola
+    </p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
 </html>
