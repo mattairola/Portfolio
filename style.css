@@ -72,7 +72,7 @@ a:active {
   background-color: #d3e0ea;
 }
 
-.fab:link{
+.fab:link {
   color: #78c4d4;
 }
 
@@ -87,6 +87,7 @@ a:active {
 .fab:active {
   color: blue;
 }
+
 /* link for email */
 .far {
   margin-bottom: 7px;
@@ -98,7 +99,7 @@ a:active {
   background-color: #d3e0ea;
 }
 
-.far:link{
+.far:link {
   color: #78c4d4;
 }
 
@@ -151,6 +152,12 @@ hr {
 /* education list */
 ol {
   list-style: none;
+  font-family: "Lucida", sans-serif;
+  font-size: 18px;
+}
+
+/* honors and awards */
+ul {
   font-family: "Lucida", sans-serif;
   font-size: 18px;
 }
