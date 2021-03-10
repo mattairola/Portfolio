@@ -87,6 +87,32 @@ a:active {
 .fab:active {
   color: blue;
 }
+/* link for email */
+.far {
+  margin-bottom: 7px;
+  font-size: 45px;
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 8px;
+  padding: 5px;
+  background-color: #d3e0ea;
+}
+
+.far:link{
+  color: #78c4d4;
+}
+
+.far:visited {
+  color: blue;
+}
+
+.far:hover {
+  background: #376678;
+}
+
+.far:active {
+  color: blue;
+}
 
 /* right container */
 .containerR {
@@ -123,7 +149,7 @@ hr {
 }
 
 /* education list */
-ul {
+ol {
   list-style: none;
   font-family: "Lucida", sans-serif;
   font-size: 18px;
